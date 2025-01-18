@@ -9,8 +9,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(167deg, rgb(137, 101, 139), rgb(46, 26, 65));
-    color: rgb(0, 0, 0);
+    background: linear-gradient(167deg, #89658b, #2e1a41);
+    color: #000000;
 
 }
 header h1 {
@@ -26,4 +26,36 @@ form{
     max-width: 400px;
     width: 90%;
     box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.792);
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #000000;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="number"],
+input[type="tel"],
+input[type="date"],
+input[type="color"],
+input[type="range"],
+
+textarea{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #ffffff;
+    font-size: 1rem;
+    color: #757575;
+    outline: none;
+    box-shadow: inset 0 1px 3px #220235;
+}
+textarea{
+resize: none;
+
 }
